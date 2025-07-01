@@ -30,11 +30,24 @@ D-apps – D-apps are software solutions that operate on a blockchain or a peer-
 DeFi - DeFi stands for decentralized finance, representing a new wave of blockchain applications that offer innovative solutions to conventional financial services.  
 Ricardian contracts - Ricardian contracts are legally binding agreements designed to be both human-readable and machine-readable.  
 
+Double-spending is  where the sender spends the same money at more than one place for obtaining services or goods from multiple vendors.  
+
+
+
 Public Key Cryptography, also called asymmetric cryptography uses a pair of keys: a public key and a private key. Public key is used for encryption while private key is used for description.  
 Core Functions of Public Key Cryptography:  
 •	Authentication: Ensures that the sender of a message is genuine.  
 •	Message Privacy (Encryption/Decryption): Ensures that only the intended recipient can read the message.  
+
 A hash function maps the data of any arbitrary size to data of fixed size. Hash is considered unique for the contents of the data. If the data is changed slightly, the hash value will change significantly.  
+
+When a trnsaction is done the transaction is broadcasted to the entire network not just between the receiver snd sender.  
+Miners (special nodes) gather multiple pending transactions from the network into a temporary block and combine transactions into a single block. 
+The process of finding the right Nonce and hash is called mining.  
+The first miner to find a valid solution broadcasts the new block to the network, and that block becomes the latest in the chain.  
+
+Proof of Work (PoW) is a method used in blockchains like Bitcoin to make sure transactions are secure and blocks are added fairly to the chain.  
+Each block includes a special number called a Nonce. The goal is to find a Nonce that, when combined with the block’s data and run through a hash function, produces a hash value that meets a specific requirement
 
 Solidity:  
 Various datatypes: Arrays, struct, unsigned integer, string.  
