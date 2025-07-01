@@ -1,19 +1,24 @@
 # SoC-Mid-Term-report
-Blockchain Technology is a type of ledger that stores information about all transactions.
-In blockchain data is stored in a block and each block is connected to its previous and next block, like in linked list.
-Types of blockchain network:
-Public – Public blockchains are open to all participants allowing anyone to view modify and authenticate the blockchain.
-Private - A private blockchain is a type of blockchain network where access and participation are restricted to a specific group of authorized individuals or organizations.
+Blockchain Technology is a type of ledger that stores information about all transactions.  
+
+In blockchain data is stored in a block and each block is connected to its previous and next block, like in linked list.  
+
+Types of blockchain network:  
+
+Public – Public blockchains are open to all participants allowing anyone to view modify and authenticate the blockchain.  
+
+Private - A private blockchain is a type of blockchain network where access and participation are restricted to a specific group of authorized individuals or organizations.  
+
 Consortium - A consortium blockchain is a type of blockchain network that is managed by a group of organizations instead of just one company or being open to everyone. Only selected members (like companies or institutions) can join, share data, and help validate transactions.
 Hybrid - A hybrid blockchain combines the features of both public and private blockchains, offering a 
- a private, permissioned network while also integrating with public, permissionless systems.
+a private, permissioned network while also integrating with public, permissionless systems.
 Cryptography is the technique of securing information by converting it into a code that can only be read by those who are permitted to do so.
-•	Encryption − Conversion of plaintext into ciphertext, making it unreadable to unauthorized parties.
-•	Decryption – Conversion of encoded message to readable form.
+Encryption − Conversion of plaintext into ciphertext, making it unreadable to unauthorized parties.
+Decryption – Conversion of encoded message to readable form.
 Types of Network Systems:
-•	Centralized Systems: One central authority manages all operations and data (e.g., Google, Amazon).
-•	Decentralized Systems: Control is spread among several nodes, reducing reliance on a central server.
-•	Distributed Systems: Data and computation are spread across many nodes, increasing resilience and scalability
+Centralized Systems: One central authority manages all operations and data (e.g., Google, Amazon).
+Decentralized Systems: Control is spread among several nodes, reducing reliance on a central server.
+Distributed Systems: Data and computation are spread across many nodes, increasing resilience and scalability
 Smart contracts – They are computer programs stored on a blockchain that automatically carry out the terms of a contract when predefined conditions are met.
 Autonomous Agents - Artificially intelligent software that work to accomplish certain objectices without much human intervention.
 Decentralized Organizations (DOs): Software-based organizations running on blockchain, where rules and interactions are encoded in smart contracts.
