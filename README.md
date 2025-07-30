@@ -57,3 +57,6 @@ Smart contract inheritance allows developers to create new smart contracts based
 Events are a way for contract to communicate to the frontend of the app.  
 A mapping is essentially a key-value store for storing and looking up data.  
  To communicate to another contract on the blockchain that we don't own, first we need to define an interface.  
+
+#SoC End Term Report
+We create a contract in that we define a struct that has all the important information regarding the certificate.
