@@ -58,5 +58,5 @@ Events are a way for contract to communicate to the frontend of the app.
 A mapping is essentially a key-value store for storing and looking up data.  
  To communicate to another contract on the blockchain that we don't own, first we need to define an interface.  
 
-#SoC End Term Report
-We create a contract in that we define a struct that has all the important information regarding the certificate.
+#SoC End Term Report  
+We create a contract in that we define a struct that has all the important information regarding the certificate. Now we use mapping to store certificates named certificates. Every certificate is indexed with unique identifier. An event is emitted(certificateGenerated) after every certificate generation, frontend apps or dApps can listen to this to know when a certificate is issued. Then we write a function(generateCertificate) to generate a certificate, it checks if a certificate with the given ID already exists and, if not, creates a new certificate and stores it in the mapping. It also emits the certificateGenerated event. Then we write a function (getCertificate), it retrives the details it returns the information associated with the certificate, it also checks if certifiacte with the given id exists or not. We write a function to check if certificate with given id exists, by checking the length of the IPFS hash associated with it. If the length is non-zero, the certificate is considered verified.
