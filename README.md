@@ -63,4 +63,4 @@ To create a certifate verification dapp, we follow these steps. We create a cont
 
 Metamask - MetaMask allows users to configure their wallet for the Sepolia network. This involves holding and managing Sepolia testnet ETH, which can be obtained for free from testnet faucets. These funds are strictly for testing and have no real-world value. During contract deployment or function execution, MetaMask presents a confirmation popup for the user to review and sign the transaction. Once approved, the signed transaction is broadcasted to the Sepolia network for inclusion in a block.  
 
-After deployment of our contract on testnet we can verify it using etherscan, this can be done by using a plugin on remix. then writing api key in the etherscan access token in settings.
+After deployment of our contract on testnet we can verify it using etherscan, this can be done by using a plugin on remix. then writing api key in the etherscan access token in settings. After deploying a contract on Sepolia, users can search for contract or account addresses on Sepolia Etherscan to view transaction history, contract details, and block information.
